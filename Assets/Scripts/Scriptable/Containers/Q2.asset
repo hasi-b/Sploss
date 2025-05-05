@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6accf81bee538bc4e949ec842a35898a, type: 3}
+  m_Name: Q2
+  m_EditorClassIdentifier: 
+  Question: What would you say to your past self right now?
+  answerOptions:
+  - answer: "It\u2019s okay to be scared. Nothing is stronger than accepting your
+      own fear."
+    answerNo: 0
+  - answer: "You\u2019re stronger than you know."
+    answerNo: 1
+  - answer: "This isn\u2019t your fault."
+    answerNo: 2
+  - answer: I wish I could hold you.
+    answerNo: 3

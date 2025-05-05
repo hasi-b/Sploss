@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1cad46d7dd47b54ab6d8f405a3e70d3, type: 3}
+  m_Name: ChoiceData
+  m_EditorClassIdentifier: 
+  choiceValue: 1
+  spriteAnswer:
+  - initialSprite: {fileID: 21300000, guid: 379aa24b1636e824fb35cd85544344d7, type: 3}
+    midSprite: {fileID: 21300000, guid: e1b494a61679a2143b1aa50c59e9472d, type: 3}
+    endSprite: {fileID: 21300000, guid: 92472c8e3ba81814782ac80e03c33290, type: 3}
+  - initialSprite: {fileID: 21300000, guid: 1b00252d3bbc7d64491c93cf494df483, type: 3}
+    midSprite: {fileID: 21300000, guid: 11ce74a389c3a854b959f507a963cdcd, type: 3}
+    endSprite: {fileID: 21300000, guid: 6ab3102f923dd964e93414f887a82382, type: 3}
+  - initialSprite: {fileID: 21300000, guid: ee7582724d02e9249a1c76d550edbd10, type: 3}
+    midSprite: {fileID: 21300000, guid: 5620afd70e37b484abca151b248d9971, type: 3}
+    endSprite: {fileID: 21300000, guid: 828e011fd4f469d46a9296fd8ff150b4, type: 3}
+  - initialSprite: {fileID: 21300000, guid: 1e1c12722c955b346919d8b152de63fd, type: 3}
+    midSprite: {fileID: 21300000, guid: 069f5038685c93949b0cbea7e2bffba0, type: 3}
+    endSprite: {fileID: 21300000, guid: 2774e74ff88d70543a14a8ab813f2519, type: 3}
