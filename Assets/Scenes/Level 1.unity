@@ -4484,6 +4484,7 @@ MonoBehaviour:
   textChanger: {fileID: 129107756}
   TextChange: {fileID: 1788996499}
   zoomCamera: {fileID: 1964380828}
+  explosionColor: {r: 0.3137255, g: 0.3137255, b: 0.3137255, a: 1}
 --- !u!114 &663294652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10107,6 +10108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f65214ea9e0c66e4e8fdd4d94de965cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  acceptanceState: 0
   character: {fileID: 663294654}
   choiceData: {fileID: 11400000, guid: 96680afd7bb9e8d4dbe1ba1596df46c7, type: 2}
 --- !u!4 &1780789185
@@ -10136,9 +10138,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e220e3133d3919f4aa7b6650ae9c69dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  virtualCamera: {fileID: 1004482773}
-  targetSize: 10
-  zoomDuration: 2
 --- !u!1 &1788996498
 GameObject:
   m_ObjectHideFlags: 0

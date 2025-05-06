@@ -40,6 +40,8 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField]
     CinemachineVirtualCamera zoomCamera;
     bool IsExplosionTriggered;
+    [SerializeField]
+    Color explosionColor;
     void Start()
     {
         playerMovement = GetComponent<PlayerMovement>();
@@ -312,6 +314,11 @@ public class PlayerInteraction : MonoBehaviour
             explosion.SetActive(true);
             IsExplosionTriggered = true;
             StartCoroutine(StopExplosion());
+
+        foreach (GameObject gm in backgroundObjects)
+        {
+            gm.GetComponent<SpriteRenderer>().color = explosionColor;
+        }
 
             
            PlayerCharacterLoader.Instance.Character.sprite = PlayerCharacterLoader.Instance.ChoiceData.spriteAnswer[PlayerCharacterLoader.Instance.ChoiceIndex - 1].midSprite;
