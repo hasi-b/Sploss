@@ -34,8 +34,11 @@ public class TailManager : MonoBehaviour
         // Move each tail object towards its target position
         for (int i = 0; i < tailObjects.Count; i++)
         {
-            Vector3 targetPosition = tailPositions[i + 1];
-            tailObjects[i].position = Vector3.Lerp(tailObjects[i].position, targetPosition, tailFollowSpeed * Time.deltaTime);
+            if ( i+1< tailPositions.Count) {
+                Vector3 targetPosition = tailPositions[i + 1];
+                tailObjects[i].position = Vector3.Lerp(tailObjects[i].position, targetPosition, tailFollowSpeed * Time.deltaTime);
+
+            }
         }
     }
 
