@@ -1307,7 +1307,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -2356,21 +2356,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f65214ea9e0c66e4e8fdd4d94de965cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  acceptanceState: 0
   character: {fileID: 1709026051}
   choiceData: {fileID: 11400000, guid: 96680afd7bb9e8d4dbe1ba1596df46c7, type: 2}
-  spriteAnswer:
-  - initialSprite: {fileID: 21300000, guid: 379aa24b1636e824fb35cd85544344d7, type: 3}
-    midSprite: {fileID: 21300000, guid: e1b494a61679a2143b1aa50c59e9472d, type: 3}
-    endSprite: {fileID: 21300000, guid: 92472c8e3ba81814782ac80e03c33290, type: 3}
-  - initialSprite: {fileID: 21300000, guid: 1b00252d3bbc7d64491c93cf494df483, type: 3}
-    midSprite: {fileID: 21300000, guid: 11ce74a389c3a854b959f507a963cdcd, type: 3}
-    endSprite: {fileID: 21300000, guid: 6ab3102f923dd964e93414f887a82382, type: 3}
-  - initialSprite: {fileID: 21300000, guid: ee7582724d02e9249a1c76d550edbd10, type: 3}
-    midSprite: {fileID: 21300000, guid: 5620afd70e37b484abca151b248d9971, type: 3}
-    endSprite: {fileID: 21300000, guid: 828e011fd4f469d46a9296fd8ff150b4, type: 3}
-  - initialSprite: {fileID: 21300000, guid: 1e1c12722c955b346919d8b152de63fd, type: 3}
-    midSprite: {fileID: 21300000, guid: 069f5038685c93949b0cbea7e2bffba0, type: 3}
-    endSprite: {fileID: 21300000, guid: 2774e74ff88d70543a14a8ab813f2519, type: 3}
 --- !u!4 &1911353442
 Transform:
   m_ObjectHideFlags: 0
