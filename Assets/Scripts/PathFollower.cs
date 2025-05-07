@@ -133,11 +133,13 @@ public class PathFollower : MonoBehaviour
 
     public void Restart()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void ReturnToMainMenu()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(0);
     }
 }
