@@ -29,12 +29,11 @@ public class PlayerCharacterLoader : MonoBehaviour
         {
             Destroy(gameObject); // Destroy duplicate instances
         }
-    }
-    private void Start()
-    {
         ChoiceIndex = ChoiceData.choiceValue;
+        Debug.Log("Choice Value : " + choiceIndex);
         LoadCharacter();
     }
+   
 
     private void LoadCharacter()
     {

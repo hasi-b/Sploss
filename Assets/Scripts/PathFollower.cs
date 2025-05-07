@@ -29,7 +29,7 @@ public class PathFollower : MonoBehaviour
 
         // Replace a specific clip (e.g., "Idle" is the name of the original motion)
         Debug.Log("number: " + PlayerCharacterLoader.Instance.ChoiceIndex);
-        animator.runtimeAnimatorController = PlayerCharacterLoader.Instance.ChoiceData.spriteAnswer[PlayerCharacterLoader.Instance.ChoiceIndex ].controller;
+        animator.runtimeAnimatorController = PlayerCharacterLoader.Instance.ChoiceData.spriteAnswer[PlayerCharacterLoader.Instance.ChoiceIndex-1 ].controller;
        
        
     }
