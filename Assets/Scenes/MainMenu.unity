@@ -486,6 +486,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1963657691}
+        m_TargetAssemblyTypeName: BackgroundAudio, Assembly-CSharp
+        m_MethodName: PlayButtonSound2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &321465123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -768,6 +780,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1963657691}
+        m_TargetAssemblyTypeName: BackgroundAudio, Assembly-CSharp
+        m_MethodName: PlayButtonSound1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &392051268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -892,6 +916,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1963657689}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: ShowCredits
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1963657691}
+        m_TargetAssemblyTypeName: BackgroundAudio, Assembly-CSharp
+        m_MethodName: PlayButtonSound1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1214,6 +1250,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1963657691}
+        m_TargetAssemblyTypeName: BackgroundAudio, Assembly-CSharp
+        m_MethodName: PlayButtonSound2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &480849432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1422,6 +1470,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1963657689}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: StartLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1963657691}
+        m_TargetAssemblyTypeName: BackgroundAudio, Assembly-CSharp
+        m_MethodName: PlayButtonSound2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2407,6 +2467,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1963657691}
+        m_TargetAssemblyTypeName: BackgroundAudio, Assembly-CSharp
+        m_MethodName: PlayButtonSound2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1202205404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3032,6 +3104,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1963657691}
+        m_TargetAssemblyTypeName: BackgroundAudio, Assembly-CSharp
+        m_MethodName: PlayButtonSound1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1723010244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3353,6 +3437,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1963657690}
   - component: {fileID: 1963657689}
+  - component: {fileID: 1963657691}
   m_Layer: 0
   m_Name: MainMenuManager
   m_TagString: Untagged
@@ -3409,6 +3494,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1963657691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963657688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc72c6c5ad2cac842853bcfa5da7c7ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 0}
+  backgroundMusicAnger: {fileID: 0}
+  level2Audio: {fileID: 0}
+  volume: 0.5
+  loop: 1
+  buttonSound1: {fileID: 8300000, guid: 178ab9024f34b514b90173ca197c77cd, type: 3}
+  buttonSound2: {fileID: 8300000, guid: 27190123b728efd4684e0ba2bb5499b2, type: 3}
 --- !u!1 &1974346838
 GameObject:
   m_ObjectHideFlags: 0
@@ -3668,6 +3772,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1963657689}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: ShowCredits
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1963657691}
+        m_TargetAssemblyTypeName: BackgroundAudio, Assembly-CSharp
+        m_MethodName: PlayButtonSound1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

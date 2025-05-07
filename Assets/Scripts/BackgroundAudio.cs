@@ -10,6 +10,9 @@ public class BackgroundAudio : MonoBehaviour
     public float volume = 0.5f; // Volume of the background music (0.0 to 1.0)
     public bool loop = true; // Should the music loop?
 
+    public AudioClip buttonSound1;
+    public AudioClip buttonSound2;
+    
     private AudioSource audioSource;
 
     void Awake()
@@ -65,5 +68,15 @@ public class BackgroundAudio : MonoBehaviour
         audioSource.clip = backgroundMusicAnger;
         audioSource.Play();
 
+    }
+    
+    public void PlayButtonSound1() 
+    {
+        audioSource.PlayOneShot(buttonSound1);
+    }
+
+    public void PlayButtonSound2()
+    {
+        audioSource.PlayOneShot(buttonSound2);
     }
 }

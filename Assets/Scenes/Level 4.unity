@@ -351,6 +351,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1348561127}
+        m_TargetAssemblyTypeName: BackgroundAudio, Assembly-CSharp
+        m_MethodName: PlayButtonSound1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &364171408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1829,6 +1841,8 @@ MonoBehaviour:
   level2Audio: {fileID: 0}
   volume: 0.5
   loop: 1
+  buttonSound1: {fileID: 8300000, guid: 178ab9024f34b514b90173ca197c77cd, type: 3}
+  buttonSound2: {fileID: 0}
 --- !u!4 &1348561128
 Transform:
   m_ObjectHideFlags: 0
@@ -2461,6 +2475,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1709026049}
         m_TargetAssemblyTypeName: PathFollower, Assembly-CSharp
         m_MethodName: ReturnToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1348561127}
+        m_TargetAssemblyTypeName: BackgroundAudio, Assembly-CSharp
+        m_MethodName: PlayButtonSound1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -378,6 +378,8 @@ MonoBehaviour:
   level2Audio: {fileID: 8300000, guid: a08e146482408404fb96ab0e98945cad, type: 3}
   volume: 0.5
   loop: 1
+  buttonSound1: {fileID: 8300000, guid: 178ab9024f34b514b90173ca197c77cd, type: 3}
+  buttonSound2: {fileID: 8300000, guid: 27190123b728efd4684e0ba2bb5499b2, type: 3}
 --- !u!4 &27035897
 Transform:
   m_ObjectHideFlags: 0
@@ -2164,6 +2166,18 @@ MonoBehaviour:
       - m_Target: {fileID: 663294652}
         m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
         m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 27035896}
+        m_TargetAssemblyTypeName: BackgroundAudio, Assembly-CSharp
+        m_MethodName: PlayButtonSound1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5136,6 +5150,18 @@ MonoBehaviour:
       - m_Target: {fileID: 663294652}
         m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
         m_MethodName: ReturnToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 27035896}
+        m_TargetAssemblyTypeName: BackgroundAudio, Assembly-CSharp
+        m_MethodName: PlayButtonSound1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
