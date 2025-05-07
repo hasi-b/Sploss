@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
 
 
@@ -17,4 +18,5 @@ public class SpriteData
     public Sprite initialSprite;
     public Sprite midSprite;
     public Sprite endSprite;
+    public RuntimeAnimatorController controller;
 }

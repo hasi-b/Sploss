@@ -18,11 +18,20 @@ public class PathFollower : MonoBehaviour
 
     public GameObject pauseMenuPanel;
     private bool isPaused = false;
-    
+    [SerializeField]
+    Animator animator;
     void Start()
     {
         currentMoveSpeed = initialMoveSpeed; // Set the initial speed
         spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
+
+
+        // Replace a specific clip (e.g., "Idle" is the name of the original motion)
+        Debug.Log("number: " + PlayerCharacterLoader.Instance.ChoiceIndex);
+        animator.runtimeAnimatorController = PlayerCharacterLoader.Instance.ChoiceData.spriteAnswer[PlayerCharacterLoader.Instance.ChoiceIndex ].controller;
+       
+       
     }
 
     void Update()
