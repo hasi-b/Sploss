@@ -25919,7 +25919,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f65214ea9e0c66e4e8fdd4d94de965cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acceptanceState: 0
+  acceptanceState: 1
   character: {fileID: 648902265}
   choiceData: {fileID: 11400000, guid: 96680afd7bb9e8d4dbe1ba1596df46c7, type: 2}
 --- !u!4 &783876652
